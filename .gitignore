@@ -6,12 +6,25 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.DS_Store
+
+# vim tmp/swp files
+*.swp
+*.un~
 
 pids
 logs
 results
 
-.DS_Store
-
 npm-debug.log
-node_modules
+
+node_modules/
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+docs/_dist
+coverage.html
+.cover*
